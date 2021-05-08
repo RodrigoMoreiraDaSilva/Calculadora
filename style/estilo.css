@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(45deg, #8ba5f4 0%, #0f1c42 80%, #0f1c42 91%, #0f1c42 100%);
+}
+
+main {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.calculadora {
+    width: 20rem;
+    height: 500px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    font-family: 'Roboto', sans-serif;
+    background: whitesmoke;
+}
+
+.output {
+    display: flex;
+    width: 20rem;
+    border-radius: 3px;
+    word-wrap: break-word;
+    word-break: break-all;
+    padding: 10px;
+    min-height: 120px;
+    max-height: 300px;
+    align-items: flex-end;
+    flex-direction: column;
+    background: whitesmoke;
+    justify-content: space-around;
+}
+
+.operacao-atual {
+    font-size: 38px;
+}
+
+.operacao-anterior {
+    font-size: 17px;
+    color: #424242;
+}
+
+table {
+    z-index: 4;
+    height: 60%;
+    width: 110%;
+    padding: 10px;
+    position: relative;
+    border-radius: 3px;
+    box-shadow: 0px 10px 30px -8px rgba(0,0,0,0.79);
+    background: linear-gradient(to bottom, rgba(64, 108, 129, 0.9), rgba(9, 13, 15, 0.9));
+}
+
+td {
+    width: 25%;
+    height: 20%;
+}
+
+td button {
+    color: #aec1fc;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    border: 1px rgba(1, 1, 29, 0.11) solid;
+    font-size: 20px;
+    transition: .5s;
+    cursor: pointer;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+}
+
+td button:hover {
+    border-radius: 3px;
+    background: rgba(2, 2, 37, 0.507);
+}
+
+.resultado {
+    z-index: 2;
+    width: 100%;
+    border: none;
+    outline: none;
+    font-size: 25px;
+    position: relative;
+    min-height: 16%;
+    max-height: 16%;
+    color: #aec1fc;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    background: linear-gradient(45deg, rgba(153,3,28,1) 0%, rgba(255,94,1,1) 100%);
+}
+
+.resultado:hover {
+    opacity: 1;
+    cursor: pointer;
+    background:crimson;
+    box-shadow: inset 0px 0px 52px 3px rgba(51,13,51,1);
+}

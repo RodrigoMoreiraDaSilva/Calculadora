@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <title>Calculadora</title>
+        <link rel="stylesheet" href="./style/estilo.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+
+        <main>
+            <div class="calculadora">
+                <div class="output">
+                    <div class="operacao-anterior"></div>
+                    <div class="operacao-atual"></div>
+                </div>
+
+                <table>
+                    <tr>
+                        <td colspan="2">
+                            <button class="limpar-tudo">AC</button>
+                        </td>
+                        <td>
+                            <button class="apagar">DEL</button>
+                        </td>
+                        <td>
+                            <button class="operacao">÷</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="numero">7</button>
+                        </td>
+                        <td>
+                            <button class="numero">8</button>
+                        </td>
+                        <td>
+                            <button class="numero">9</button>
+                        </td>
+                        <td>
+                            <button class="operacao">×</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="numero">4</button>
+                        </td>
+                        <td>
+                            <button class="numero">5</button>
+                        </td>
+                        <td>
+                            <button class="numero">6</button>
+                        </td>
+                        <td>
+                            <button class="operacao">-</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="numero">1</button>
+                        </td>
+                        <td>
+                            <button class="numero">2</button>
+                        </td>
+                        <td>
+                            <button class="numero">3</button>
+                        </td>
+                        <td rowspan="2">
+                            <button class="operacao">+</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button class="ponto">.</button>
+                        </td>
+                        <td colspan="2">
+                            <button class="numero">0</button>
+                        </td>
+                    </tr>
+                </table>
+
+                <button class="resultado">
+                    =
+                </button>
+            </div>
+        </main>
+    </body>
+
+    <script src="./js/script.js"></script>
+</html>
