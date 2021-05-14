@@ -51,6 +51,8 @@
 ## <a name="demonstracao"></a>🎬 Demonstração
 > imagens demonstrativas do projeto em duas resoluções diferentes.
 
+![Imagem demonstrativa da interface visual em uma resolução menor](./assets/screenshots/Screenshot.png)
+![imagem demonstrativa da interface visual em uma resolução maior](./assets/screenshots/Screenshot2.png)
 
 ## 📲 COMO VISUALIZAR <a name="como-visualizar"> </a>
 
