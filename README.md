@@ -51,8 +51,9 @@
 ## <a name="demonstracao"></a>🎬 Demonstração
 > imagens demonstrativas do projeto em duas resoluções diferentes.
 
-![Imagem demonstrativa da interface visual em uma resolução menor](./assets/screenshots/Screenshot.png)
 ![imagem demonstrativa da interface visual em uma resolução maior](./assets/screenshots/Screenshot2.png)
+![Imagem demonstrativa da interface visual em uma resolução menor](./assets/screenshots/screenshot.png)
+
 
 ## 📲 COMO VISUALIZAR <a name="como-visualizar"> </a>
 
@@ -67,8 +68,6 @@ $ cd Calculadora
 ```
 
 - Com o projeto/repositório clonado em sua máquina local, abra o arquivo `calculadora.html` em seu navegador de preferência e então fique avontade fazendo as operações matemáticas 😂🤩!
-
-<p> <img src=""> <p>
   
 ## <a name="tecnologias-utilizadas"></a> 🛠 Tecnologias Utilizadas
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
