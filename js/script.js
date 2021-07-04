@@ -49,7 +49,7 @@ botaoResultado.onclick = () => {
 };
 
 function adicionarNumero(numeroClicado) {
-    resultadoTotal == "" ? atualizarOutput() : limparTudo();
+    resultadoTotal != "" ? limparTudo() : atualizarOutput();
     
     if(operacaoAtual.length < 14)
         operacaoAtual = operacaoAtual + numeroClicado;
@@ -82,6 +82,7 @@ function selecionarOperadorMatematico(operador) {
 
     if(operacaoAtual != "" || resultadoTotal != "") {
         operacaoAnterior == "" ? adicionarOperadorMatematico(operador) : efetuarOperacao(operador);
+        resultadoTotal = "";
     }
 }
 
@@ -133,6 +134,7 @@ function efetuarOperacao(proximoOperador) {
     if(proximoOperador != "") {
         operacaoAnterior = operacaoAtual + proximoOperador;
         operacaoAtual = "";
+        resultadoTotal = "";
     }
     else 
         operacaoAnterior = "";
