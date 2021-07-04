@@ -49,6 +49,7 @@ main {
 
 .operacao-atual {
     font-size: 38px;
+    font-weight: 500;
 }
 
 .operacao-anterior {

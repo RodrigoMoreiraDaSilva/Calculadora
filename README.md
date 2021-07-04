@@ -43,9 +43,9 @@
 - [x] Exibição do número atual e do número anterior;
 - [x] Botão de deletar que apaga o último caracter digitado;
 - [x] Botão de resultado que exibe na calculadora o resultado da operação;
-- [ ] Se o usuario digitar um número maior que 24 digitos, uma mensagem de erro é exibida;
+- [x] Se o usuario digitar um número maior que 14 digitos, uma mensagem de erro é exibida;
 - [x] Há o botão de apagar tudo que limpa o output e deixa vazio o numero atual e anterior;
-- [x] Há a limitação de digitos que impede o usuário de digitar um número de até no máximo 24 digitos;
+- [x] Há a limitação de digitos que impede o usuário de digitar um número de até no máximo 14 digitos;
 - [x] A calculadora faz a operação matematica automaticamente caso o usuário clique em um simbolo matematico sem ter clicado em resultar;
 
 ## <a name="demonstracao"></a>🎬 Demonstração
