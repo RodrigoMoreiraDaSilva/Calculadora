@@ -32,8 +32,15 @@ botaoDeApagar.onclick = function () {
 };
 
 botaoLimparTudo.onclick = function () {
-    
+    limparTudo();
+    atualizarOutput();
 }
+
+botaoOperadoresNumericos.forEach((operador) => {
+    operador.addEventListener("click", () => {
+        selecionarOperadorMatematico(operador.innerHTML);
+    });
+});
 
 function adicionarNumero(numeroClicado) {
     resultadoTotal == "" ? atualizarOutput() : limparTudo();
@@ -60,4 +67,33 @@ function limparTudo() {
 function atualizarOutput() {
     componenteOperacaoAtual.innerHTML = operacaoAtual;
     componenteOperacaoAnterior.innerHTML = operacaoAnterior;
+}
+
+function selecionarOperadorMatematico(operador) {
+    if (operacaoAtual == "") {
+      trocarOperador(operador);
+    }
+
+    if(operacaoAtual != "" || resultadoTotal != "") {
+        operacaoAnterior == "" ? adicionarOperadorMatematico(operador) : efetuarOperacao();
+    }
+}
+
+function adicionarOperadorMatematico(operador) {
+    operacaoAnterior = operacaoAtual + operador;
+    operacaoAtual = "";
+
+    atualizarOutput();
+}
+
+function trocarOperador(operador) {
+    if (
+      operacaoAnterior.includes("+") ||
+      operacaoAnterior.includes("-") ||
+      operacaoAnterior.includes("×") ||
+      operacaoAnterior.includes("÷")
+    )
+      operacaoAnterior = operacaoAnterior.substring(0, operacaoAnterior.length - 1) + operador;
+
+    atualizarOutput();
 }
