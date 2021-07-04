@@ -42,6 +42,12 @@ botaoOperadoresNumericos.forEach((operador) => {
     });
 });
 
+botaoResultado.onclick = () => {
+    if(operacaoAtual != "" && operacaoAnterior != "") {
+        efetuarOperacao("");
+    }
+};
+
 function adicionarNumero(numeroClicado) {
     resultadoTotal == "" ? atualizarOutput() : limparTudo();
     
@@ -75,7 +81,7 @@ function selecionarOperadorMatematico(operador) {
     }
 
     if(operacaoAtual != "" || resultadoTotal != "") {
-        operacaoAnterior == "" ? adicionarOperadorMatematico(operador) : efetuarOperacao();
+        operacaoAnterior == "" ? adicionarOperadorMatematico(operador) : efetuarOperacao(operador);
     }
 }
 
@@ -94,6 +100,42 @@ function trocarOperador(operador) {
       operacaoAnterior.includes("÷")
     )
       operacaoAnterior = operacaoAnterior.substring(0, operacaoAnterior.length - 1) + operador;
+
+    atualizarOutput();
+}
+
+function efetuarOperacao(proximoOperador) {
+    var operador = operacaoAnterior.charAt(operacaoAnterior.length - 1)
+    operacaoAnterior = operacaoAnterior.substring(0, operacaoAnterior.length - 1);
+
+    switch (operador) {
+        case "+":
+            resultadoTotal = parseFloat(operacaoAnterior) + parseFloat(operacaoAtual);
+            operacaoAtual = resultadoTotal.toString();
+        break;
+
+        case "-":
+            resultadoTotal = parseFloat(operacaoAnterior) - parseFloat(operacaoAtual);
+            operacaoAtual = resultadoTotal.toString();
+        break;
+
+        case "÷":
+            resultadoTotal = parseFloat(operacaoAnterior) / parseFloat(operacaoAtual);
+            operacaoAtual = resultadoTotal.toString();
+        break;
+
+        case "×":
+            resultadoTotal = parseFloat(operacaoAnterior) * parseFloat(operacaoAtual);
+            operacaoAtual = resultadoTotal.toString();
+        break;
+    }
+
+    if(proximoOperador != "") {
+        operacaoAnterior = operacaoAtual + proximoOperador;
+        operacaoAtual = "";
+    }
+    else 
+        operacaoAnterior = "";
 
     atualizarOutput();
 }
