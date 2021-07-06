@@ -3,12 +3,12 @@
 </p>
 
 <h1 align="center">🧮 CALCULADORA 🧮</h1> <a name="sobre"> </a>
-<p align="center"> <a name="descricao"></a>Nesse projeto desenvolvi uma simples aplicação web que consiste em uma calculadora com um layout moderno e responsivo da qual executa algumas operações matemáticas básicas de multiplicação, divisão, subtração e soma.</p>
+<p align="center"> <a name="descricao"></a>Nesse projeto foi desenvolvido uma aplicação web que consiste em uma calculadora simples do qual executa algumas operações matemáticas básicas de multiplicação, divisão, subtração e soma.</p>
 
-<h4 align="center"> <a name="status"></a><i>🚀 Status: Finalizado (refatorando...) 🚀</i> </h4>
+<p align="center"><code> <a name="status"></a><i>🚀 Status: Finalizado 🚀</i> </code ></p>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Progresso&message=57%&color=5d4f5e&style=for-the-badge&labelColor=9f8da0">
+  <img src="https://img.shields.io/static/v1?label=Progresso&message=99%&color=5d4f5e&style=for-the-badge&labelColor=9f8da0">
   <a href="https://github.com/RodrigoMoreiraDaSilva/Calculadora/issues">
     <img src="https://img.shields.io/github/issues/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=53242c&labelColor=cf514a">
   </a>
@@ -41,7 +41,7 @@
 
 ## <a name="recursos"></a> ⚙️ RECURSOS
 
-- [x] Interface visual moderna e responsiva;
+- [x] Interface de usuário moderno e responsivo;
 - [x] Execução de operações matemáticas básicas;
 - [x] Exibição do número atual e do número anterior;
 - [x] Botão de deletar que apaga o último caracter digitado;
@@ -83,9 +83,8 @@ $ cd Calculadora
 <h5>Rodrigo Moreira 🌠</h5>
 <p>🌐Desenvolvido por <b> <i>Rodrigo Moreira da Silva</b> </i> 👨🏽‍💼❤️
 
-[![Badge Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/RodrogaDev)
+[![Badge Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/psrodrigs)
 [![Badge Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rodrigo-m0reira-da-silva/)
-![Badge Gmail](https://img.shields.io/badge/rodrigomoreiradasilva.of@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white)
 
 ****
 <p align="center">
