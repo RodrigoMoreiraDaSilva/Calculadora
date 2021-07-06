@@ -1,3 +1,6 @@
+<p align="center"> 
+  <img src="https://images-na.ssl-images-amazon.com/images/I/31JGgSJIIDL.png" height="200px" width="200">
+</p>
 
 <h1 align="center">🧮 CALCULADORA 🧮</h1> <a name="sobre"> </a>
 <p align="center"> <a name="descricao"></a>Nesse projeto desenvolvi uma simples aplicação web que consiste em uma calculadora com um layout moderno e responsivo da qual executa algumas operações matemáticas básicas de multiplicação, divisão, subtração e soma.</p>
