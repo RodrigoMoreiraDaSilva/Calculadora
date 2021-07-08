@@ -106,30 +106,31 @@ function trocarOperador(operador) {
 }
 
 function efetuarOperacao(proximoOperador) {
-    var operador = operacaoAnterior.charAt(operacaoAnterior.length - 1)
+    let operador = operacaoAnterior.charAt(operacaoAnterior.length - 1)
     operacaoAnterior = operacaoAnterior.substring(0, operacaoAnterior.length - 1);
 
     switch (operador) {
         case "+":
             resultadoTotal = parseFloat(operacaoAnterior) + parseFloat(operacaoAtual);
-            operacaoAtual = resultadoTotal.toString();
         break;
 
         case "-":
             resultadoTotal = parseFloat(operacaoAnterior) - parseFloat(operacaoAtual);
-            operacaoAtual = resultadoTotal.toString();
         break;
 
         case "÷":
             resultadoTotal = parseFloat(operacaoAnterior) / parseFloat(operacaoAtual);
-            operacaoAtual = resultadoTotal.toString();
         break;
 
         case "×":
             resultadoTotal = parseFloat(operacaoAnterior) * parseFloat(operacaoAtual);
-            operacaoAtual = resultadoTotal.toString();
         break;
     }
+
+    if(resultadoTotal % 1 != 0) 
+        resultadoTotal = resultadoTotal.toFixed(8); 
+
+    operacaoAtual = resultadoTotal.toString();
 
     if(proximoOperador != "") {
         operacaoAnterior = operacaoAtual + proximoOperador;
