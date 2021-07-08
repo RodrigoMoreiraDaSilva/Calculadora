@@ -22,6 +22,10 @@ botaoPonto.addEventListener("click", () => {
     if(operacaoAtual.length < 13) {
         if(!operacaoAtual.includes(".") && operacaoAtual != "") {
             operacaoAtual = operacaoAtual + ".";
+
+            if(resultadoTotal != "")
+                resultadoTotal = "";
+
             atualizarOutput();
         }
     }
