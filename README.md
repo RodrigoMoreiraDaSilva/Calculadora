@@ -52,11 +52,13 @@
 - [x] A calculadora faz a operação matematica automaticamente caso o usuário clique em um simbolo matematico sem ter clicado em resultar;
 
 ## <a name="demonstracao"></a>🎬 Demonstração
-> imagens demonstrativas do projeto em duas resoluções diferentes.
 
-![imagem demonstrativa da interface visual em uma resolução maior](./assets/screenshots/Screenshot2.png)
-![Imagem demonstrativa da interface visual em uma resolução menor](./assets/screenshots/screenshot.png)
+<p align="left">
+  <img src="./assets/screenshots/Screenshot2.png" height="200px">
+  <img src="./assets/screenshots/Screenshot.png" height="200px" width="120px">
+</p>
 
+![imagem animada demonstrativa da aplicação](./assets/images/Demonstração_Calculadora.gif)
 
 ## 📲 COMO VISUALIZAR <a name="como-visualizar"> </a>
 
