@@ -21,7 +21,6 @@
   <a href="">
     <img src="https://img.shields.io/github/stars/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=047548&labelColor=15ad70">
   </a>
-
 </p>
 
 ****
@@ -62,7 +61,10 @@
 
 ## 📲 COMO VISUALIZAR <a name="como-visualizar"> </a>
 
-- Para visualizar o projeto em sua máquina, primeiramente clone o repositório remoto em sua máquina "doméstica". Para isso, no terminal, execute os seguintes comandos:
+**Há duas Alternativas:**
+- A primeira alternativa é acessando um link direto para o projeto hospedado. Nesse caso, pode acessar o projeto clicando nesse [link](https://calculadora-k9kinrvps-rodrigomoreiradasilva.vercel.app/calculadora.html).
+
+- A segunda alternativa é clonando o projeto em sua máquina local: Para isso, no terminal, execute os seguintes comandos:
 
 ```
 # Criar clone local do projeto
@@ -72,7 +74,7 @@ $ git clone https://github.com/RodrigoMoreiraDaSilva/Calculadora.git
 $ cd Calculadora
 ```
 
-- Com o projeto/repositório clonado em sua máquina local, abra o arquivo `calculadora.html` em seu navegador de preferência e então fique avontade fazendo as operações matemáticas 😂🤩!
+- Com o projeto/repositório clonado em sua máquina local, abra o arquivo `calculadora.html` em seu navegador de preferência e então se divirta executando as operações matemáticas.
   
 ## <a name="tecnologias-utilizadas"></a> 🛠 Tecnologias Utilizadas
 [![JAVASCRIPT](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
