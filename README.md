@@ -8,18 +8,18 @@
 <p align="center"><code> <a name="status"></a><i>🚀 Status: Finalizado 🚀</i> </code ></p>
 <br>
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=Progresso&message=99%&color=5d4f5e&style=for-the-badge&labelColor=9f8da0">
+  <img src="https://img.shields.io/static/v1?label=Progresso&message=99%&color=c20a25&style=for-the-badge&labelColor=d1384f">
   <a href="https://github.com/RodrigoMoreiraDaSilva/Calculadora/issues">
-    <img src="https://img.shields.io/github/issues/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=53242c&labelColor=cf514a">
+    <img src="https://img.shields.io/github/issues/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=12298c&labelColor=5a6bb8">
   </a>
   <a href="https://github.com/RodrigoMoreiraDaSilva/Calculadora/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=841d6c&labelColor=ccabd8">
+    <img src="https://img.shields.io/github/license/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=f5580a&labelColor=ff864a">
   </a>
   <a href="https://github.com/RodrigoMoreiraDaSilva/Calculadora/network">
-    <img src="https://img.shields.io/github/forks/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=264d59&labelColor=43978d">
+    <img src="https://img.shields.io/github/forks/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=7515ad&labelColor=bd4aff">
   </a>
   <a href="">
-    <img src="https://img.shields.io/github/stars/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=d46c4e&labelColor=f9ad6a">
+    <img src="https://img.shields.io/github/stars/RodrigoMoreiraDaSilva/Calculadora?style=for-the-badge&color=047548&labelColor=15ad70">
   </a>
 
 </p>
@@ -54,8 +54,8 @@
 ## <a name="demonstracao"></a>🎬 Demonstração
 
 <p align="left">
-  <img src="./assets/screenshots/Screenshot2.png" height="200px">
-  <img src="./assets/screenshots/Screenshot.png" height="200px" width="120px">
+  <img src="./assets/screenshots/Screenshot2.png" height="300px">
+  <img src="./assets/screenshots/Screenshot.png" height="300px">
 </p>
 
 ![imagem animada demonstrativa da aplicação](./assets/images/Demonstração_Calculadora.gif)
