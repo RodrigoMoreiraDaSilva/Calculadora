@@ -54,7 +54,7 @@
 
 <p align="left">
   <img src="./assets/screenshots/Screenshot2.png" height="300px">
-  <img src="./assets/screenshots/Screenshot.png" height="300px">
+  <img src="./assets/screenshots/screenshot.png" height="300px">
 </p>
 
 ![imagem animada demonstrativa da aplicação](./assets/images/Demonstração_Calculadora.gif)
