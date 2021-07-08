@@ -62,7 +62,7 @@
 ## 📲 COMO VISUALIZAR <a name="como-visualizar"> </a>
 
 **Há duas Alternativas:**
-- A primeira alternativa é acessando um link direto para o projeto hospedado. Nesse caso, pode acessar o projeto clicando nesse [link](https://calculadora-k9kinrvps-rodrigomoreiradasilva.vercel.app/calculadora.html).
+- A primeira alternativa é acessando um link direto para o projeto hospedado. Nesse caso, pode acessar o projeto clicando nesse [link](calculadora-git-main-rodrigomoreiradasilva.vercel.app/calculadora.html).
 
 - A segunda alternativa é clonando o projeto em sua máquina local: Para isso, no terminal, execute os seguintes comandos:
 
